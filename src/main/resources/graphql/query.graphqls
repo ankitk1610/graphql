@@ -1,0 +1,11 @@
+type  Query {
+    bankAccount(id : ID): BankAccount
+
+    bankAccounts(first: Int, after: String): BankAccountConnection @connection(for: "BankAccount")
+
+    offers(id: String): Offer
+
+#    offers(id : String) : OfferResponse1
+
+    test: BankAccount!
+}

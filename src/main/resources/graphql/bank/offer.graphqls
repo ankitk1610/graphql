@@ -1,0 +1,17 @@
+type OfferResponse1 {
+    id: String
+    description: String
+    isPrimeUser: Boolean
+
+}
+
+type OfferResponse2 {
+
+    id: String
+    description: String
+    validity: String
+    condition: String
+}
+
+
+union  Offer = OfferResponse1 | OfferResponse2

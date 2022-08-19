@@ -1,0 +1,6 @@
+query  {
+    bankAccount(id: "0e208176-3fa5-4ba3-a255-e1aa7cb82c57") {
+        id
+        createdOn
+    }
+}

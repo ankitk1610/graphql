@@ -1,0 +1,8 @@
+enum Currency {
+
+    CNF
+    INR
+    USD
+    EUR
+
+}
